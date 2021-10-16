@@ -1,0 +1,20 @@
+{
+    "name": "adao.pedro/palavras_mais_usadas",
+    "authors": [
+        {
+            "name": "Adao Pedro",
+            "email": "adao.pedro16@gmail.com"
+        }
+    ],
+    "require": {
+        "react/promise": "^2.8"
+    },
+    "autoload": {
+		"psr-4": {
+			"APDevs\\MyApp\\": "src/"
+		},
+        "files": [
+            "src/Core.php"
+        ]
+	}
+}
